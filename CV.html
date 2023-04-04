@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desctiption" content="Это мое резюме"> 
+    <meta name="keywords" content="html, css, tags, resume">
+    <title>Сайт-резюме</title>
+    <link rel="stylesheet" href="CV.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="foto" src="imgs/Я.jpg" alt="Здесь могло быть мое фото">
+
+            <div class="info-text">
+                <h1 class="name">Андрей Арипов</h1>
+                    
+                <p>Я работаю на заводе <strong>Штадлер Минск </strong>инженером. </p>
+                    
+                <p>Я люблю <em>кушать.</em></p>
+
+                <h2>Список социальных сетей</h2>
+                <hr>
+                <a href="https://vk.com/aripov_andrei" target="_blank">Instagram</a>
+                    I
+                <a href="https://vk.com/aripov_andrei" target="_blank">Telegram</a>
+                    I
+                <a href="https://vk.com/aripov_andrei" target="_blank">Youtube</a>
+            </div>
+        </div>
+
+        <hr>
+        <div class="card hobby">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Блоггинг</li>
+                <li>Горные лыжи</li>
+                <li>ММА</li>
+            </ol>
+        </div>
+
+        <div class="card work">
+            <h2>Опыт работы</h2>
+
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Диапроектор</td>
+                        <td>Оператор ЧПУ</td>
+                        <td>2010-2011</td>
+                    </tr>
+                    <tr>
+                        <td>КМЗ</td>
+                        <td>Оператор ЧПУ</td>
+                        <td>2011-2017</td>
+                    </tr>
+                    <tr>
+                        <td>НПО Контакт Модуль</td>
+                        <td>Оператор ЧПУ</td>
+                        <td>2017-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Штадлер Минск</td>
+                        <td>Инженер-технолог</td>
+                        <td>2017-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Штадлер Минск</td>
+                        <td>Заместитель начальника цеха</td>
+                        <td>2022-сейчас</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="card courses">
+            <h2>Мои курсы</h2>
+            <ul class="link-list">
+                <li>Получение профессии Frontend Разработчика</li>
+                <li>Все курсы</li>
+            </ul>
+        </div>
+
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="text">Ваше имя</label>
+                    <input type="text" id="text" placeholder="Введите имя">
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Ваше имя</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение</label>
+                <br>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите текст..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Отправить форму</button>
+        </form>
+
+
+    </div>
+</body>
+</html>
